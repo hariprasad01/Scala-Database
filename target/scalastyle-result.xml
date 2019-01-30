@@ -1,30 +1,337 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="5.0">
- <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/TermTest.scala">
-  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
-  <error column="4" line="32" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
-  <error column="4" line="33" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
-  <error column="4" line="34" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
- </file>
- <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Hello.scala">
-  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
-  <error column="2" line="4" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
- </file>
- <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Today.scala">
-  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
-  <error column="8" line="10" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
-  <error column="8" line="11" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
-  <error column="8" line="12" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
- </file>
- <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Timer.scala">
-  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
-  <error column="42" line="3" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
-  <error column="16" line="14" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
-  <error column="25" line="15" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
- </file>
+	 <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/BrainFck.scala">
+		  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+		  <error column="1" line="66" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+		  <error column="4" line="62" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="4" line="64" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="15" line="14" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+		  <error column="15" line="15" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+		  <error column="6" line="23" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+		  <error column="6" line="24" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+		  <error column="6" line="37" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+	 </file>
+	 <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Primes.scala">
+		  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+		  <error column="36" line="4" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="6" line="3" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+	 </file>
+	 <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/PingPong.scala">
+		  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+		  <error column="55" line="25" source="org.scalastyle.scalariform.SpacesAfterPlusChecker" severity="warning" message="There should be a space after the plus (+) sign"/>
+		  <error column="39" line="38" source="org.scalastyle.scalariform.SpacesAfterPlusChecker" severity="warning" message="There should be a space after the plus (+) sign"/>
+		  <error column="52" line="58" source="org.scalastyle.scalariform.SpacesAfterPlusChecker" severity="warning" message="There should be a space after the plus (+) sign"/>
+		  <error column="44" line="25" source="org.scalastyle.scalariform.SpacesBeforePlusChecker" severity="warning" message="There should be a space before the plus (+) sign"/>
+		  <error column="50" line="25" source="org.scalastyle.scalariform.SpacesBeforePlusChecker" severity="warning" message="There should be a space before the plus (+) sign"/>
+		  <error column="55" line="25" source="org.scalastyle.scalariform.SpacesBeforePlusChecker" severity="warning" message="There should be a space before the plus (+) sign"/>
+		  <error column="39" line="38" source="org.scalastyle.scalariform.SpacesBeforePlusChecker" severity="warning" message="There should be a space before the plus (+) sign"/>
+		  <error column="33" line="58" source="org.scalastyle.scalariform.SpacesBeforePlusChecker" severity="warning" message="There should be a space before the plus (+) sign"/>
+		  <error column="43" line="58" source="org.scalastyle.scalariform.SpacesBeforePlusChecker" severity="warning" message="There should be a space before the plus (+) sign"/>
+		  <error column="52" line="58" source="org.scalastyle.scalariform.SpacesBeforePlusChecker" severity="warning" message="There should be a space before the plus (+) sign"/>
+		  <error column="7" line="15" source="org.scalastyle.scalariform.ObjectNamesChecker" severity="warning" message="Object name does not match the regular expression '[A-Z][A-Za-z]*'"/>
+		  <error column="22" line="17" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+		  <error column="4" line="25" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="10" line="30" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="12" line="38" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="12" line="42" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="12" line="58" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="10" line="62" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="10" line="37" source="org.scalastyle.scalariform.IfBraceChecker" severity="warning" message="If block needs braces"/>
+		  <error column="10" line="39" source="org.scalastyle.scalariform.IfBraceChecker" severity="warning" message="If block needs braces"/>
+		  <error column="10" line="57" source="org.scalastyle.scalariform.IfBraceChecker" severity="warning" message="If block needs braces"/>
+	 </file>
+	 <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Implicts.scala">
+		  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+		  <error column="16" line="10" source="org.scalastyle.scalariform.SpacesBeforePlusChecker" severity="warning" message="There should be a space before the plus (+) sign"/>
+		  <error column="25" line="9" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+		  <error column="2" line="10" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="15" line="3" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+	 </file>
+	 <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/SimpleInterpreter.scala">
+		  <error column="0" line="56" source="org.scalastyle.file.FileTabChecker" severity="warning" message="Line contains a tab"/>
+		  <error column="0" line="57" source="org.scalastyle.file.FileTabChecker" severity="warning" message="Line contains a tab"/>
+		  <error column="0" line="61" source="org.scalastyle.file.FileTabChecker" severity="warning" message="Line contains a tab"/>
+		  <error column="0" line="62" source="org.scalastyle.file.FileTabChecker" severity="warning" message="Line contains a tab"/>
+		  <error column="0" line="63" source="org.scalastyle.file.FileTabChecker" severity="warning" message="Line contains a tab"/>
+		  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+		  <error column="3" line="27" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+		  <error column="29" line="66" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+		  <error column="61" line="69" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+		  <error column="70" line="69" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+		  <error column="4" line="73" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="4" line="74" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="16" line="26" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+		  <error column="17" line="29" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+		  <error column="17" line="32" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+	 </file>
+	 <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Rational.scala">
+		  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+		  <error column="0" line="3" source="org.scalastyle.scalariform.IfBraceChecker" severity="warning" message="If block needs braces"/>
+		  <error column="5" line="4" source="org.scalastyle.scalariform.IfBraceChecker" severity="warning" message="If block needs braces"/>
+		  <error column="5" line="5" source="org.scalastyle.scalariform.IfBraceChecker" severity="warning" message="If block needs braces"/>
+		  <error column="4" line="11" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+		  <error column="4" line="14" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+		  <error column="4" line="17" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+		  <error column="4" line="19" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+		  <error column="4" line="11" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+		  <error column="4" line="14" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+		  <error column="4" line="17" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+		  <error column="4" line="19" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+	 </file>
+	 <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Random.scala">
+		  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+		  <error column="3" line="7" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+		  <error column="55" line="8" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+		  <error column="2" line="9" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+		  <error column="56" line="10" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+		  <error column="54" line="11" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+		  <error column="53" line="12" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+		  <error column="26" line="13" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+		  <error column="0" line="16" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+		  <error column="7" line="15" source="org.scalastyle.scalariform.ObjectNamesChecker" severity="warning" message="Object name does not match the regular expression '[A-Z][A-Za-z]*'"/>
+		  <error column="7" line="55" source="org.scalastyle.scalariform.ObjectNamesChecker" severity="warning" message="Object name does not match the regular expression '[A-Z][A-Za-z]*'"/>
+		  <error column="34" line="31" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+		  <error column="38" line="59" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+		  <error column="31" line="87" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+		  <error column="21" line="91" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+		  <error column="8" line="41" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="19" line="66" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+	 </file>
+	 <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/TermTest.scala">
+		  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+		  <error column="4" line="32" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="4" line="33" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="4" line="34" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+	 </file>
+	 <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/LazyEvaluation.scala">
+		  <error column="0" line="29" source="org.scalastyle.file.FileTabChecker" severity="warning" message="Line contains a tab"/>
+		  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+		  <error column="5" line="12" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+		  <error column="67" line="13" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+		  <error column="5" line="17" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+		  <error column="65" line="18" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+		  <error column="64" line="19" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+		  <error column="31" line="44" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="4" line="46" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="4" line="47" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="4" line="48" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="4" line="49" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="4" line="55" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="4" line="56" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="4" line="57" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="17" line="24" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+		  <error column="17" line="33" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+		  <error column="6" line="43" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+	 </file>
+	 <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Sum.scala">
+		  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+		  <error column="38" line="7" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+		  <error column="6" line="5" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="8" line="8" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+	 </file>
+	 <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Hello.scala">
+		  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+		  <error column="2" line="4" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+	 </file>
+	 <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/fors.scala">
+		  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+		  <error column="29" line="49" source="org.scalastyle.scalariform.SpacesAfterPlusChecker" severity="warning" message="There should be a space after the plus (+) sign"/>
+		  <error column="37" line="64" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+		  <error column="52" line="68" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+		  <error column="29" line="49" source="org.scalastyle.scalariform.SpacesBeforePlusChecker" severity="warning" message="There should be a space before the plus (+) sign"/>
+		  <error column="22" line="10" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+		  <error column="23" line="11" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+		  <error column="26" line="12" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+		  <error column="41" line="94" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+		  <error column="13" line="97" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+		  <error column="4" line="90" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="4" line="94" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="4" line="98" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="4" line="101" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="4" line="104" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="4" line="73" source="org.scalastyle.scalariform.IfBraceChecker" severity="warning" message="If block needs braces"/>
+		  <error column="6" line="52" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+		  <error column="6" line="68" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+	 </file>
+	 <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Match.scala">
+		  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+		  <error column="8" line="8" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="8" line="12" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="6" line="15" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="4" line="14" source="org.scalastyle.scalariform.IfBraceChecker" severity="warning" message="If block needs braces"/>
+	 </file>
+	 <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/AbstractClass.scala">
+	  	<error severity="error" message="Expected token RBRACE but got Token(EOF,,483,)"/>
+	 </file>
+	 <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Today.scala">
+		  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+		  <error column="8" line="10" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="8" line="11" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="8" line="12" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+	 </file>
+	 <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Properties.scala">
+		  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+		  <error column="7" line="4" source="org.scalastyle.scalariform.ObjectNamesChecker" severity="warning" message="Object name does not match the regular expression '[A-Z][A-Za-z]*'"/>
+		  <error column="4" line="55" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="4" line="56" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="8" line="20" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+		  <error column="8" line="23" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+		  <error column="8" line="26" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+		  <error column="17" line="41" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+	 </file>
+	 <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/BigInt.scala">
+		  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+		  <error column="22" line="6" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+		  <error column="47" line="6" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+		  <error column="2" line="7" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="2" line="8" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="2" line="9" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+	 </file>
+	 <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/ForAndYield.scala">
+		  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+		  <error column="4" line="5" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+	 </file>
+	 <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/TimeofDay.scala">
+		  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+		  <error column="36" line="6" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+		  <error column="43" line="7" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+		  <error column="75" line="14" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+		  <error column="44" line="15" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+		  <error column="0" line="31" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+		  <error column="7" line="3" source="org.scalastyle.scalariform.ObjectNamesChecker" severity="warning" message="Object name does not match the regular expression '[A-Z][A-Za-z]*'"/>
+		  <error column="14" line="34" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+		  <error column="29" line="34" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+		  <error column="14" line="35" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+		  <error column="6" line="18" source="org.scalastyle.scalariform.IfBraceChecker" severity="warning" message="If block needs braces"/>
+		  <error column="6" line="23" source="org.scalastyle.scalariform.IfBraceChecker" severity="warning" message="If block needs braces"/>
+		  <error column="6" line="28" source="org.scalastyle.scalariform.IfBraceChecker" severity="warning" message="If block needs braces"/>
+		  <error column="8" line="17" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+		  <error column="8" line="22" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+		  <error column="8" line="27" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+		  <error column="8" line="12" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+		  <error column="8" line="17" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+		  <error column="8" line="21" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+		  <error column="8" line="22" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+		  <error column="8" line="26" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+		  <error column="8" line="27" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+	 </file>
+	 <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Timer.scala">
+		  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+		  <error column="42" line="3" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+		  <error column="16" line="14" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+		  <error column="25" line="15" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+	 </file>
+	 <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/FunctionalQuickSort.scala">
+		  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+		  <error column="7" line="4" source="org.scalastyle.scalariform.ObjectNamesChecker" severity="warning" message="Object name does not match the regular expression '[A-Z][A-Za-z]*'"/>
+		  <error column="18" line="16" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+		  <error column="24" line="16" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+		  <error column="27" line="16" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+		  <error column="4" line="17" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="4" line="18" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="4" line="6" source="org.scalastyle.scalariform.IfBraceChecker" severity="warning" message="If block needs braces"/>
+	 </file>
+	 <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/ExtendBuildins.scala">
+		  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+		  <error column="2" line="9" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		  <error column="8" line="5" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+		  <error column="8" line="5" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+		  <error column="15" line="7" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+	 </file>
+	 <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/AuctionStyle.scala">
+		  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+		  <error column="23" line="6" source="org.scalastyle.scalariform.NullChecker" severity="warning" message="Avoid using null"/>
+	 </file>
+	 <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Varargs.scala">
+		  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+		  <error column="20" line="8" source="org.scalastyle.scalariform.SpacesAfterPlusChecker" severity="warning" message="There should be a space after the plus (+) sign"/>
+		  <error column="20" line="8" source="org.scalastyle.scalariform.SpacesBeforePlusChecker" severity="warning" message="There should be a space before the plus (+) sign"/>
+		  <error column="7" line="4" source="org.scalastyle.scalariform.ObjectNamesChecker" severity="warning" message="Object name does not match the regular expression '[A-Z][A-Za-z]*'"/>
+		  <error column="2" line="8" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+		 </file>
+		 <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Maps.scala">
+		  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+		  <error column="23" line="9" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+	 </file>
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/fibonacciListener.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="4" line="11" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+ </file>
+ <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/QuickSort.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="55" line="6" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="58" line="7" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="38" line="8" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="50" line="40" source="org.scalastyle.scalariform.SpacesBeforePlusChecker" severity="warning" message="There should be a space before the plus (+) sign"/>
+  <error column="7" line="4" source="org.scalastyle.scalariform.ObjectNamesChecker" severity="warning" message="Object name does not match the regular expression '[A-Z][A-Za-z]*'"/>
+  <error column="19" line="47" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="25" line="47" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="28" line="47" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="6" line="37" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="12" line="43" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="4" line="48" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="4" line="50" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="4" line="33" source="org.scalastyle.scalariform.IfBraceChecker" severity="warning" message="If block needs braces"/>
+ </file>
+ <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/ComplexOperations.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="2" line="19" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="8" line="3" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="8" line="5" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="8" line="7" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="8" line="10" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="8" line="3" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="8" line="5" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="8" line="7" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="8" line="10" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="17" line="15" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/ExtractorPatters.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="52" line="3" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="76" line="4" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="0" line="7" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="63" line="8" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="69" line="9" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="27" line="10" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="4" line="11" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="67" line="12" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="66" line="13" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="62" line="14" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="68" line="15" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="50" line="16" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="68" line="42" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="72" line="43" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="29" line="44" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="4" line="45" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="70" line="46" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="68" line="47" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="69" line="48" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="22" line="49" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="48" line="53" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="65" line="54" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="4" line="55" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="60" line="56" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="52" line="57" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="68" line="58" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="4" line="59" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="73" line="60" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="80" line="61" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="63" line="62" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="72" line="63" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="61" line="64" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="57" line="71" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="53" line="72" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="57" line="73" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="56" line="74" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="31" line="75" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="68" line="51" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="43" line="94" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="56" line="94" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="22" line="88" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="19" line="89" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="4" line="93" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="6" line="86" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
  </file>
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/CaseClassInheritance.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
@@ -33,12 +340,124 @@
   <error column="6" line="8" source="org.scalastyle.scalariform.ReturnChecker" severity="warning" message="Avoid using return"/>
   <error column="8" line="22" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
  </file>
+ <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/AddressBook.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="17" line="25" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="18" line="48" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="18" line="49" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="20" line="50" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="4" line="61" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="8" line="15" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Gadts.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="7" line="8" source="org.scalastyle.scalariform.ObjectNamesChecker" severity="warning" message="Object name does not match the regular expression '[A-Z][A-Za-z]*'"/>
+  <error column="32" line="41" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="46" line="41" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="2" line="40" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+ </file>
+ <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Vectors.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="7" line="4" source="org.scalastyle.scalariform.ObjectNamesChecker" severity="warning" message="Object name does not match the regular expression '[A-Z][A-Za-z]*'"/>
+  <error column="34" line="56" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="37" line="56" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="40" line="56" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="4" line="57" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="4" line="58" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="4" line="59" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="8" line="7" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="8" line="8" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="8" line="9" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="8" line="10" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="8" line="27" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="8" line="28" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="8" line="29" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="8" line="30" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="8" line="36" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="8" line="37" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="8" line="38" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="8" line="39" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="6" line="53" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
+  <error column="8" line="36" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="8" line="37" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="8" line="38" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="8" line="39" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="8" line="49" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="8" line="50" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="15" line="52" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="53" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/CompanionObject.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="4" line="16" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
   <error column="4" line="17" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
   <error column="17" line="4" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
   <error column="8" line="12" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Abstract_Types.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="2" line="14" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="2" line="15" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="37" line="6" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="8" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="11" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Message.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="41" line="38" source="org.scalastyle.scalariform.NullChecker" severity="warning" message="Avoid using null"/>
+  <error column="8" line="13" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="12" line="25" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+ </file>
+ <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Pattern.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="0" line="5" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="63" line="6" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="69" line="7" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="27" line="8" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="68" line="14" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="72" line="15" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="29" line="16" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="48" line="20" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="65" line="21" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="4" line="22" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="60" line="23" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="52" line="24" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="68" line="25" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="57" line="32" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="53" line="33" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="57" line="34" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="56" line="35" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="31" line="36" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="7" line="4" source="org.scalastyle.scalariform.ObjectNamesChecker" severity="warning" message="Object name does not match the regular expression '[A-Z][A-Za-z]*'"/>
+  <error column="68" line="18" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="48" line="55" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="22" line="49" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="19" line="50" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="4" line="54" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="6" line="47" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+ </file>
+ <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/CallccInterpreter.scala">
+  <error column="0" line="64" source="org.scalastyle.file.FileTabChecker" severity="warning" message="Line contains a tab"/>
+  <error column="0" line="65" source="org.scalastyle.file.FileTabChecker" severity="warning" message="Line contains a tab"/>
+  <error column="0" line="69" source="org.scalastyle.file.FileTabChecker" severity="warning" message="Line contains a tab"/>
+  <error column="0" line="70" source="org.scalastyle.file.FileTabChecker" severity="warning" message="Line contains a tab"/>
+  <error column="0" line="71" source="org.scalastyle.file.FileTabChecker" severity="warning" message="Line contains a tab"/>
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="5" line="5" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="26" line="6" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="61" line="77" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="70" line="77" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="65" line="79" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="4" line="82" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="4" line="83" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="4" line="84" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="8" line="9" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="14" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="16" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="19" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="16" line="34" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="17" line="37" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="17" line="40" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
  </file>
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/TrailsTest.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
