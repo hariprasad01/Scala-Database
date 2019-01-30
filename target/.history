@@ -1,0 +1,11 @@
+compile
+~compile
+compile
+run
+set ThisBuild / scalaVersion := "2.12.7"
+scalaVersion
+session save
+reload
+exit
+compile
+run

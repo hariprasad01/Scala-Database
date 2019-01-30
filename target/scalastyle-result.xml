@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+ <file name="/home/hari/Desktop/SP/src/main/scala/example/Hello.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="2" line="4" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+ </file>
+ <file name="/home/hari/Desktop/SP/src/main/scala/example/CaseClassInheritance.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="34" line="21" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="37" line="21" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="6" line="8" source="org.scalastyle.scalariform.ReturnChecker" severity="warning" message="Avoid using return"/>
+  <error column="8" line="22" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+ </file>
+</checkstyle>
