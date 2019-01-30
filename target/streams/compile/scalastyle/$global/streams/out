@@ -1,18 +1,61 @@
-[0m[[0m[0minfo[0m] [0m[0mscalastyle using config /home/hari/Desktop/SP/scalastyle-config.xml[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle using config /home/hari/Desktop/SP/Scala Database/scalastyle-config.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mStarting scalastyle[0m
-[0m[[0m[0mdebug[0m] [0m[0mstart file /home/hari/Desktop/SP/src/main/scala/example/CaseClassInheritance.scala[0m
-[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/src/main/scala/example/CaseClassInheritance.scala:1: Header does not match expected text[0m
-[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/src/main/scala/example/CaseClassInheritance.scala:21:34: Magic Number[0m
-[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/src/main/scala/example/CaseClassInheritance.scala:21:37: Magic Number[0m
-[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/src/main/scala/example/CaseClassInheritance.scala:8:6: Avoid using return[0m
-[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/src/main/scala/example/CaseClassInheritance.scala:22:8: Regular expression matched 'println'[0m
-[0m[[0m[0mdebug[0m] [0m[0mend file /home/hari/Desktop/SP/src/main/scala/example/CaseClassInheritance.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0mstart file /home/hari/Desktop/SP/src/main/scala/example/Hello.scala[0m
-[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/src/main/scala/example/Hello.scala:1: Header does not match expected text[0m
-[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/src/main/scala/example/Hello.scala:4:2: Regular expression matched 'println'[0m
-[0m[[0m[0mdebug[0m] [0m[0mend file /home/hari/Desktop/SP/src/main/scala/example/Hello.scala[0m
-[0m[[0m[0minfo[0m] [0m[0mscalastyle Processed 2 file(s)[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/Today.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Today.scala:1: Header does not match expected text[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Today.scala:10:8: Regular expression matched 'println'[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Today.scala:11:8: Regular expression matched 'println'[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Today.scala:12:8: Regular expression matched 'println'[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/Today.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/CaseClassInheritance.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/CaseClassInheritance.scala:1: Header does not match expected text[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/CaseClassInheritance.scala:21:34: Magic Number[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/CaseClassInheritance.scala:21:37: Magic Number[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/CaseClassInheritance.scala:8:6: Avoid using return[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/CaseClassInheritance.scala:22:8: Regular expression matched 'println'[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/CaseClassInheritance.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/Hello.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Hello.scala:1: Header does not match expected text[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Hello.scala:4:2: Regular expression matched 'println'[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/Hello.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/TermTest.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/TermTest.scala:1: Header does not match expected text[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/TermTest.scala:32:4: Regular expression matched 'println'[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/TermTest.scala:33:4: Regular expression matched 'println'[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/TermTest.scala:34:4: Regular expression matched 'println'[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/TermTest.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/CompanionObject.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/CompanionObject.scala:1: Header does not match expected text[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/CompanionObject.scala:16:4: Regular expression matched 'println'[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/CompanionObject.scala:17:4: Regular expression matched 'println'[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/CompanionObject.scala:4:17: Public method must have explicit type[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/CompanionObject.scala:12:8: Public method must have explicit type[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/CompanionObject.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/helloworld.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/helloworld.scala:1: Header does not match expected text[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/helloworld.scala:2:2: Regular expression matched 'println'[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/helloworld.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/fibonacciListener.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/fibonacciListener.scala:1: Header does not match expected text[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/fibonacciListener.scala:11:4: Regular expression matched 'println'[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/fibonacciListener.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/TrailsTest.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/TrailsTest.scala:1: Header does not match expected text[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/TrailsTest.scala:9:29: Whitespace at end of line[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/TrailsTest.scala:16:26: Magic Number[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/TrailsTest.scala:18:4: Regular expression matched 'println'[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/TrailsTest.scala:19:4: Regular expression matched 'println'[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/TrailsTest.scala:20:4: Regular expression matched 'println'[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/TrailsTest.scala:9:8: Public method must have explicit type[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/TrailsTest.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/Timer.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Timer.scala:1: Header does not match expected text[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Timer.scala:3:42: Whitespace at end of line[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Timer.scala:14:16: Magic Number[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Timer.scala:15:25: Regular expression matched 'println'[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/Timer.scala[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Processed 9 file(s)[0m
 [0m[[0m[0minfo[0m] [0m[0mscalastyle Found 0 errors[0m
-[0m[[0m[0minfo[0m] [0m[0mscalastyle Found 7 warnings[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Found 35 warnings[0m
 [0m[[0m[0minfo[0m] [0m[0mscalastyle Found 0 infos[0m
-[0m[[0m[0minfo[0m] [0m[0mscalastyle Finished in 8 ms[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Finished in 11 ms[0m
+[0m[[0m[32msuccess[0m] [0m[0mcreated output: /home/hari/Desktop/SP/Scala Database/target[0m
