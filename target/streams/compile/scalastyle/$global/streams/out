@@ -59,6 +59,12 @@
 [0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/TermTest.scala:33:4: Regular expression matched 'println'[0m
 [0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/TermTest.scala:34:4: Regular expression matched 'println'[0m
 [0m[[0m[0mdebug[0m] [0m[0mend file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/TermTest.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/ZeroObject.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/ZeroObject.scala:1: Header does not match expected text[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/ZeroObject.scala:6:25: If block needs braces[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/ZeroObject.scala:5:4: Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/ZeroObject.scala:6:4: Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/ZeroObject.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0mstart file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/Message.scala[0m
 [0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Message.scala:1: Header does not match expected text[0m
 [0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Message.scala:38:41: Avoid using null[0m
@@ -72,6 +78,9 @@
 [0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Match.scala:15:6: Regular expression matched 'println'[0m
 [0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Match.scala:14:4: If block needs braces[0m
 [0m[[0m[0mdebug[0m] [0m[0mend file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/Match.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/OnePlaceBuffer.scala[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/OnePlaceBuffer.scala: Expected token SEMI but got Token(COMMA,,,98,,)[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/OnePlaceBuffer.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0mstart file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/Gadts.scala[0m
 [0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Gadts.scala:1: Header does not match expected text[0m
 [0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Gadts.scala:8:7: Object name does not match the regular expression '[A-Z][A-Za-z]*'[0m
@@ -79,6 +88,11 @@
 [0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Gadts.scala:41:46: Magic Number[0m
 [0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Gadts.scala:40:2: Regular expression matched 'println'[0m
 [0m[[0m[0mdebug[0m] [0m[0mend file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/Gadts.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/SyncChannel.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/SyncChannel.scala:1: Header does not match expected text[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/SyncChannel.scala:5:26: Avoid using null[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/SyncChannel.scala:10:4: Public method must have explicit type[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/SyncChannel.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0mstart file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/Properties.scala[0m
 [0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Properties.scala:1: Header does not match expected text[0m
 [0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Properties.scala:4:7: Object name does not match the regular expression '[A-Z][A-Za-z]*'[0m
@@ -152,7 +166,11 @@
 [0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/ExtractorPatters.scala:86:6: Public method must have explicit type[0m
 [0m[[0m[0mdebug[0m] [0m[0mend file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/ExtractorPatters.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0mstart file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/AbstractClass.scala[0m
-[0m[[0m[31merror[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/AbstractClass.scala: Expected token RBRACE but got Token(EOF,,483,)[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/AbstractClass.scala:1: Header does not match expected text[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/AbstractClass.scala:7:0: If block needs braces[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/AbstractClass.scala:8:5: If block needs braces[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/AbstractClass.scala:11:0: If block needs braces[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/AbstractClass.scala:12:5: If block needs braces[0m
 [0m[[0m[0mdebug[0m] [0m[0mend file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/AbstractClass.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0mstart file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/Random.scala[0m
 [0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Random.scala:1: Header does not match expected text[0m
@@ -173,6 +191,10 @@
 [0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Random.scala:41:8: Regular expression matched 'println'[0m
 [0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Random.scala:66:19: Regular expression matched 'println'[0m
 [0m[[0m[0mdebug[0m] [0m[0mend file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/Random.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/Bank_Accounts.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Bank_Accounts.scala:1: Header does not match expected text[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Bank_Accounts.scala:7:0: If block needs braces[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/Bank_Accounts.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0mstart file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/Rational.scala[0m
 [0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Rational.scala:1: Header does not match expected text[0m
 [0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Rational.scala:3:0: If block needs braces[0m
@@ -195,6 +217,9 @@
 [0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Abstract_Types.scala:8:6: Public method must have explicit type[0m
 [0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Abstract_Types.scala:11:6: Public method must have explicit type[0m
 [0m[[0m[0mdebug[0m] [0m[0mend file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/Abstract_Types.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/Server.scala[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Server.scala: Expected token SEMI but got Token(DEF,def,278,def)[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/Server.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0mstart file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/AddressBook.scala[0m
 [0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/AddressBook.scala:1: Header does not match expected text[0m
 [0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/AddressBook.scala:25:17: Whitespace at end of line[0m
@@ -364,6 +389,12 @@
 [0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Primes.scala:4:36: Regular expression matched 'println'[0m
 [0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Primes.scala:3:6: Public method must have explicit type[0m
 [0m[[0m[0mdebug[0m] [0m[0mend file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/Primes.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/SuccessorClass.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/SuccessorClass.scala:1: Header does not match expected text[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/SuccessorClass.scala:6:25: If block needs braces[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/SuccessorClass.scala:5:4: Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/SuccessorClass.scala:6:4: Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/SuccessorClass.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0mstart file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/Implicts.scala[0m
 [0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Implicts.scala:1: Header does not match expected text[0m
 [0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Implicts.scala:10:16: There should be a space before the plus (+) sign[0m
@@ -399,6 +430,24 @@
 [0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Pattern.scala:54:4: Regular expression matched 'println'[0m
 [0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Pattern.scala:47:6: Public method must have explicit type[0m
 [0m[[0m[0mdebug[0m] [0m[0mend file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/Pattern.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/ClassHierarchy.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/ClassHierarchy.scala:1: Header does not match expected text[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/ClassHierarchy.scala:8:4: Public method must have explicit type[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/ClassHierarchy.scala:9:4: Public method must have explicit type[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/ClassHierarchy.scala:10:4: Public method must have explicit type[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/ClassHierarchy.scala:13:4: Public method must have explicit type[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/ClassHierarchy.scala:14:4: Public method must have explicit type[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/ClassHierarchy.scala:15:4: Public method must have explicit type[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/ClassHierarchy.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/Database.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Database.scala:1: Header does not match expected text[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Database.scala:13:0: Regular expression matched 'println'[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Database.scala:7:4: Public method must have explicit type[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Database.scala:11:4: Public method must have explicit type[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/Database.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/ReadersWriters.scala[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/ReadersWriters.scala: Expected token SEMI but got Token(COMMA,,,103,,)[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/ReadersWriters.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0mstart file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/TrailsTest.scala[0m
 [0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/TrailsTest.scala:1: Header does not match expected text[0m
 [0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/TrailsTest.scala:9:29: Whitespace at end of line[0m
@@ -418,6 +467,11 @@
 [0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Timer.scala:14:16: Magic Number[0m
 [0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Timer.scala:15:25: Regular expression matched 'println'[0m
 [0m[[0m[0mdebug[0m] [0m[0mend file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/Timer.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/Wire.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Wire.scala:1: Header does not match expected text[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Wire.scala:4:4: Public method must have explicit type[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Wire.scala:5:4: Public method must have explicit type[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/Wire.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0mstart file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/CallccInterpreter.scala[0m
 [0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/CallccInterpreter.scala:64:0: Line contains a tab[0m
 [0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/CallccInterpreter.scala:65:0: Line contains a tab[0m
@@ -472,9 +526,18 @@
 [0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Vectors.scala:52:15: Public method must have explicit type[0m
 [0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Vectors.scala:53:6: Public method must have explicit type[0m
 [0m[[0m[0mdebug[0m] [0m[0mend file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/Vectors.scala[0m
-[0m[[0m[0minfo[0m] [0m[0mscalastyle Processed 40 file(s)[0m
-[0m[[0m[0minfo[0m] [0m[0mscalastyle Found 1 errors[0m
-[0m[[0m[0minfo[0m] [0m[0mscalastyle Found 391 warnings[0m
+[0m[[0m[0mdebug[0m] [0m[0mstart file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/Stack.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Stack.scala:1: Header does not match expected text[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Stack.scala:8:4: Public method must have explicit type[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Stack.scala:9:4: Public method must have explicit type[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Stack.scala:10:4: Public method must have explicit type[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Stack.scala:13:4: Public method must have explicit type[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Stack.scala:14:4: Public method must have explicit type[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Stack.scala:15:4: Public method must have explicit type[0m
+[0m[[0m[0mdebug[0m] [0m[0mend file /home/hari/Desktop/SP/Scala Database/src/main/scala/example/Stack.scala[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Processed 51 file(s)[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Found 3 errors[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Found 430 warnings[0m
 [0m[[0m[0minfo[0m] [0m[0mscalastyle Found 0 infos[0m
-[0m[[0m[0minfo[0m] [0m[0mscalastyle Finished in 94 ms[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Finished in 44 ms[0m
 [0m[[0m[32msuccess[0m] [0m[0mcreated output: /home/hari/Desktop/SP/Scala Database/target[0m

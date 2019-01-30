@@ -10,4 +10,4 @@ else true
 def incl(x: Int): IntSet =
 if (x < elem) new NonEmptySet(elem, left incl x, right)
 else if (x > elem) new NonEmptySet(elem, left, right incl x)
-else this
+else this}
