@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="5.0">
+<<<<<<< HEAD
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/List.reverse.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="0" line="4" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
@@ -13,6 +14,8 @@
   <error column="6" line="4" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
   <error column="6" line="5" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
  </file>
+=======
+>>>>>>> master
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/BrainFck.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="1" line="66" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
@@ -30,33 +33,42 @@
   <error column="4" line="5" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
   <error column="4" line="6" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
  </file>
+<<<<<<< HEAD
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/String_Interpolator.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="0" line="4" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
   <error column="6" line="5" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
   <error column="6" line="6" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
  </file>
+=======
+>>>>>>> master
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/SuccessorClass.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="25" line="6" source="org.scalastyle.scalariform.IfBraceChecker" severity="warning" message="If block needs braces"/>
   <error column="4" line="5" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
   <error column="4" line="6" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'"/>
  </file>
+<<<<<<< HEAD
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/String_concat.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="0" line="5" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
   <error column="6" line="6" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
  </file>
+=======
+>>>>>>> master
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/SyncChannel.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="26" line="5" source="org.scalastyle.scalariform.NullChecker" severity="warning" message="Avoid using null"/>
   <error column="4" line="10" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
  </file>
+<<<<<<< HEAD
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Regex_replaceFirstIn.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="0" line="5" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
   <error column="6" line="6" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
  </file>
+=======
+>>>>>>> master
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Stack.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="4" line="8" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
@@ -71,6 +83,7 @@
   <error column="36" line="4" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
   <error column="6" line="3" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
  </file>
+<<<<<<< HEAD
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Option_isEmpty.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="30" line="4" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
@@ -88,6 +101,8 @@
   <error column="6" line="8" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
   <error column="7" line="6" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
  </file>
+=======
+>>>>>>> master
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/PingPong.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="55" line="25" source="org.scalastyle.scalariform.SpacesAfterPlusChecker" severity="warning" message="There should be a space after the plus (+) sign"/>
@@ -119,12 +134,15 @@
   <error column="2" line="10" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
   <error column="15" line="3" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
  </file>
+<<<<<<< HEAD
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/While_loop.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="0" line="4" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
   <error column="14" line="3" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
   <error column="9" line="7" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
  </file>
+=======
+>>>>>>> master
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/SimpleInterpreter.scala">
   <error column="0" line="56" source="org.scalastyle.file.FileTabChecker" severity="warning" message="Line contains a tab"/>
   <error column="0" line="57" source="org.scalastyle.file.FileTabChecker" severity="warning" message="Line contains a tab"/>
@@ -175,6 +193,7 @@
   <error column="8" line="41" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
   <error column="19" line="66" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
  </file>
+<<<<<<< HEAD
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Regex2.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="0" line="7" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
@@ -190,6 +209,8 @@
   <error column="6" line="16" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
   <error column="6" line="25" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
  </file>
+=======
+>>>>>>> master
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/TermTest.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="4" line="32" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
@@ -222,11 +243,14 @@
   <error column="6" line="5" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
   <error column="8" line="8" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
  </file>
+<<<<<<< HEAD
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Maps_DS_concat.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="6" line="8" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
   <error column="6" line="12" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
  </file>
+=======
+>>>>>>> master
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Hello.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="2" line="4" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
@@ -236,6 +260,7 @@
   <error column="4" line="4" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
   <error column="4" line="5" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
  </file>
+<<<<<<< HEAD
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/String_raw_interpolator.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="6" line="3" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
@@ -249,6 +274,8 @@
   <error column="9" line="4" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
   <error column="6" line="8" source="org.scalastyle.scalariform.IfBraceChecker" severity="warning" message="If block needs braces"/>
  </file>
+=======
+>>>>>>> master
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/fors.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="29" line="49" source="org.scalastyle.scalariform.SpacesAfterPlusChecker" severity="warning" message="There should be a space after the plus (+) sign"/>
@@ -276,6 +303,7 @@
   <error column="6" line="15" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
   <error column="4" line="14" source="org.scalastyle.scalariform.IfBraceChecker" severity="warning" message="If block needs braces"/>
  </file>
+<<<<<<< HEAD
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Arrays_concatinate.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="0" line="9" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
@@ -287,6 +315,8 @@
   <error column="0" line="13" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
   <error column="9" line="19" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
  </file>
+=======
+>>>>>>> master
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/AbstractClass.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="0" line="7" source="org.scalastyle.scalariform.IfBraceChecker" severity="warning" message="If block needs braces"/>
@@ -300,6 +330,7 @@
   <error column="8" line="11" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
   <error column="8" line="12" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
  </file>
+<<<<<<< HEAD
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/ExtendingClass.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="0" line="6" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
@@ -338,6 +369,8 @@
   <error column="6" line="21" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
   <error column="7" line="10" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
  </file>
+=======
+>>>>>>> master
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Properties.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="7" line="4" source="org.scalastyle.scalariform.ObjectNamesChecker" severity="warning" message="Object name does not match the regular expression '[A-Z][A-Za-z]*'"/>
@@ -356,6 +389,7 @@
   <error column="2" line="8" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
   <error column="2" line="9" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
  </file>
+<<<<<<< HEAD
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Options_getOrElse.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="30" line="4" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
@@ -379,10 +413,13 @@
   <error column="12" line="15" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
   <error column="9" line="18" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
  </file>
+=======
+>>>>>>> master
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/ForAndYield.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="4" line="5" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
  </file>
+<<<<<<< HEAD
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Tuples_toString.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="0" line="4" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
@@ -399,6 +436,8 @@
   <error column="0" line="4" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
   <error column="16" line="3" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
  </file>
+=======
+>>>>>>> master
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/TimeofDay.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="36" line="6" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
@@ -423,6 +462,7 @@
   <error column="8" line="26" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
   <error column="8" line="27" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
  </file>
+<<<<<<< HEAD
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Extractor_pattern.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="65" line="7" source="org.scalastyle.scalariform.SpacesAfterPlusChecker" severity="warning" message="There should be a space after the plus (+) sign"/>
@@ -440,6 +480,8 @@
   <error column="0" line="5" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
   <error column="6" line="3" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
  </file>
+=======
+>>>>>>> master
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Timer.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="42" line="3" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
@@ -469,6 +511,7 @@
   <error column="8" line="5" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
   <error column="15" line="7" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
  </file>
+<<<<<<< HEAD
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Tuples.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="6" line="6" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
@@ -545,6 +588,8 @@
   <error column="6" line="5" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
   <error column="6" line="8" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
  </file>
+=======
+>>>>>>> master
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/ClassHierarchy.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="4" line="8" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
@@ -554,6 +599,7 @@
   <error column="4" line="14" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
   <error column="4" line="15" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
  </file>
+<<<<<<< HEAD
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Function_nested.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="6" line="3" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
@@ -572,10 +618,13 @@
   <error column="6" line="3" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
   <error column="6" line="4" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
  </file>
+=======
+>>>>>>> master
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/AuctionStyle.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="23" line="6" source="org.scalastyle.scalariform.NullChecker" severity="warning" message="Avoid using null"/>
  </file>
+<<<<<<< HEAD
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Function_defaultParameter.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="0" line="5" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
@@ -617,6 +666,8 @@
   <error column="14" line="4" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
   <error column="12" line="8" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
  </file>
+=======
+>>>>>>> master
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Varargs.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="20" line="8" source="org.scalastyle.scalariform.SpacesAfterPlusChecker" severity="warning" message="There should be a space after the plus (+) sign"/>
@@ -837,6 +888,7 @@
   <error column="15" line="52" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
   <error column="6" line="53" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
  </file>
+<<<<<<< HEAD
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Scope.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="49" line="4" source="org.scalastyle.scalariform.NullChecker" severity="warning" message="Avoid using null"/>
@@ -887,6 +939,14 @@
   <error column="0" line="7" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
   <error column="6" line="8" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
  </file>
+=======
+ <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/OnePlaceBuffer.scala">
+  <error severity="error" message="Expected token SEMI but got Token(COMMA,,,98,,)"/>
+ </file>
+ <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/ReadersWriters.scala">
+  <error severity="error" message="Expected token SEMI but got Token(COMMA,,,103,,)"/>
+ </file>
+>>>>>>> master
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/CompanionObject.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="4" line="16" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
@@ -974,6 +1034,7 @@
   <error column="4" line="54" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
   <error column="6" line="47" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
  </file>
+<<<<<<< HEAD
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Class_Demo.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="0" line="6" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
@@ -993,6 +1054,8 @@
   <error column="6" line="4" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
   <error column="6" line="7" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
  </file>
+=======
+>>>>>>> master
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Bank_Accounts.scala">
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="0" line="7" source="org.scalastyle.scalariform.IfBraceChecker" severity="warning" message="If block needs braces"/>
@@ -1020,7 +1083,14 @@
   <error column="17" line="37" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
   <error column="17" line="40" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
  </file>
+<<<<<<< HEAD
  <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Set_concat.scala">
+=======
+ <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/Server.scala">
+  <error severity="error" message="Expected token SEMI but got Token(DEF,def,278,def)"/>
+ </file>
+ <file name="/home/hari/Desktop/SP/Scala Database/src/main/scala/example/TrailsTest.scala">
+>>>>>>> master
   <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
   <error column="6" line="8" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
   <error column="6" line="12" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
